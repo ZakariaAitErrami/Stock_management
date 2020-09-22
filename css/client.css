@@ -1,0 +1,95 @@
+body {
+  color: #5a5a5a;
+  background-color: #075AAB;
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+.hero {
+  width: 100%;
+  height: 30%;
+}
+h1 {
+  color: white;
+  text-shadow: 3px 3px 10px black;
+}
+table {
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+table, th, td {
+  border: 0.1rem solid orange;
+  border-collapse: collapse;
+  color: white
+}
+
+th, td {
+  padding: 0.7rem;
+}
+.section-heading {
+  font-size: 3.3em;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.section-subheading {
+  color: white;
+  font-size: 2em;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  text-shadow: 3px 3px 10px black;
+}
+.copyright-text {
+  color: #becbff;
+}
+.logo {
+  height: 5rem;
+  width: 5rem;
+}
+p {
+  color: #becbff;
+  font-size: 1.2rem;
+  text-align: center;
+  text-shadow: 1px 1px 5px black;
+}
+.option-centered {
+  text-align: center;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: yellow;
+  text-decoration: none;
+}
+.empty-cell {
+  background-color: #0077BB;
+}
+.highlight-cell {
+  background-color: orange;
+}
+.options-div {
+  margin: auto;
+  max-width: 30%;
+  text-align: center;
+}
+.results-div {
+  margin: auto;
+  max-width: 70%;
+  text-align: center;
+}
+footer {
+  /* background-color: #34699a; */
+  /* background-image: linear-gradient(to right top, #34699a, #113f67); */
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+  text-align: center;
+  text-shadow: 2px 2px 10px black;
+}
